@@ -32,3 +32,30 @@ select * from clientes order by nome, sobrenome desc;
 
 <img width="846" height="370" alt="image" src="https://github.com/user-attachments/assets/988f3d34-a366-4cc7-90d1-a656a2a7d693" />
 
+
+-- Exemplo 06 - Ordenar colunas do maior para o menor
+
+select * from clientes order by Renda_Anual desc;
+
+<img width="779" height="290" alt="image" src="https://github.com/user-attachments/assets/227ff20e-8263-4581-bd79-7ef5c5900136" />
+
+
+-- Exemplo 07 - Ordenar colunas do maior para o menor
+
+select nome, sobrenome, email, Data_Nascimento from  clientes order by Data_Nascimento asc;
+
+<img width="807" height="314" alt="image" src="https://github.com/user-attachments/assets/bc8f1505-2019-47fc-bb99-8aaafe43e698" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
